@@ -93,6 +93,7 @@ public class MainActivity extends ActionBarActivity {
                 // Go back to the initial state, set Take Picture Button Visible
                 // hide other UI elements
                 takePictureButton.setVisibility(View.VISIBLE);
+                lookPictureButton.setVisibility(View.VISIBLE);
                 returnedImageView.setVisibility(View.GONE);
                 saveDataButton.setVisibility(View.GONE);
                 titleTextView.setVisibility(View.GONE);
